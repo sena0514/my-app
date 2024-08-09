@@ -6,12 +6,10 @@ const CountUpPage: NextPage = () => {
   const [count, setCount] = useState(0);
   const countUpButton = () => {
     setCount((prev) => prev + 1);
-    console.log("レンダリングされました");
   };
 
   const countDownButton = () => {
     setCount((prev) => prev - 1);
-    console.log("レンダリングされました");
   };
 
   return (

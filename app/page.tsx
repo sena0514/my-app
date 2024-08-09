@@ -12,7 +12,13 @@ export default function Home() {
             className="py-3 px-4 text-2xl rounded-lg border-4 border-gray-500 inline-block bg-red-300"
             href="/countUp"
           >
-            CountUp
+            1.CountUp
+          </Link>
+          <Link
+            className="py-3 px-4 text-2xl rounded-lg border-4 border-gray-500 inline-block bg-yellow-300"
+            href="/textChange"
+          >
+           2.Text On & Off
           </Link>
         </div>
       </div>
