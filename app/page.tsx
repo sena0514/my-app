@@ -9,16 +9,22 @@ export default function Home() {
         </h2>
         <div className="mt-12 flex gap-y-7 gap-x-5">
           <Link
-            className="py-3 px-4 text-2xl rounded-lg border-4 border-gray-500 inline-block bg-red-300"
+            className="py-3 px-4 text-2xl rounded-lg border-4 border-gray-500 inline-block bg-red-200"
             href="/countUp"
           >
             1.CountUp
           </Link>
           <Link
-            className="py-3 px-4 text-2xl rounded-lg border-4 border-gray-500 inline-block bg-yellow-300"
+            className="py-3 px-4 text-2xl rounded-lg border-4 border-gray-500 inline-block bg-yellow-200"
             href="/textChange"
           >
            2.Text On & Off
+          </Link>
+          <Link
+            className="py-3 px-4 text-2xl rounded-lg border-4 border-gray-500 inline-block bg-blue-200"
+            href="/realTimeText"
+          >
+           3.Realtime Text
           </Link>
         </div>
       </div>
