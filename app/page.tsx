@@ -9,25 +9,25 @@ export default function Home() {
         </h2>
         <div className="mt-12 grid justify-center gap-y-7 gap-x-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           <Link
-            className="py-3 px-4 text-2xl text-center rounded-lg border-4 border-gray-500 inline-block bg-red-200"
+            className="py-3 px-2 text-center rounded-lg border-4 border-gray-500 inline-block bg-red-200"
             href="/countUp"
           >
             1.CountUp
           </Link>
           <Link
-            className="py-3 px-4 text-2xl text-center rounded-lg border-4 border-gray-500 inline-block bg-yellow-200"
+            className="py-3 px-2 text-center rounded-lg border-4 border-gray-500 inline-block bg-yellow-200"
             href="/textChange"
           >
             2.Text On & Off
           </Link>
           <Link
-            className="py-3 px-4 text-2xl text-center rounded-lg border-4 border-gray-500 inline-block bg-blue-200"
+            className="py-3 px-2  text-center rounded-lg border-4 border-gray-500 inline-block bg-blue-200"
             href="/realTimeText"
           >
             3.Realtime Text
           </Link>
           <Link
-            className="py-3 px-4 text-2xl text-center rounded-lg border-4 border-gray-500 inline-block bg-green-200"
+            className="py-3 px-2 text-center rounded-lg border-4 border-gray-500 inline-block bg-green-200"
             href="/colorChange"
           >
             4.Color Change
