@@ -32,6 +32,12 @@ export default function Home() {
           >
             4.Color Change
           </Link>
+          <Link
+            className="py-3 px-2  text-center rounded-lg border-4 border-gray-500 inline-block bg-gray-200"
+            href="/addComments"
+          >
+            5.Add Comments
+          </Link>
         </div>
       </div>
     </div>
