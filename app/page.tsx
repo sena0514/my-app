@@ -38,6 +38,12 @@ export default function Home() {
           >
             5.Add Comments
           </Link>
+          <Link
+            className="py-3 px-2  text-center rounded-lg border-4 border-gray-500 inline-block bg-red-300"
+            href="/simpleMemo"
+          >
+            6.Simple Memo
+          </Link>
         </div>
       </div>
     </div>
