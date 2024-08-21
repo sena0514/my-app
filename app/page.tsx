@@ -44,6 +44,12 @@ export default function Home() {
           >
             6.Simple Memo
           </Link>
+          <Link
+            className="py-3 px-2  text-center rounded-lg border-4 border-gray-500 inline-block bg-blue-300"
+            href="/randomWords"
+          >
+            7.Random Words
+          </Link>
         </div>
       </div>
     </div>
