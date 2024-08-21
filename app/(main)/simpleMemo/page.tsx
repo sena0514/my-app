@@ -44,7 +44,7 @@ const SimpleMemo: NextPage = () => {
               </button>
             </div>
           </div>
-          <ul className="mt-5">
+          <ul className="mt-5 flex flex-col gap-y-3">
             {commentList.map((comment, index) => (
               <li
                 key={index}
