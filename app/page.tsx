@@ -56,6 +56,12 @@ export default function Home() {
           >
             8.Number Change
           </Link>
+          <Link
+            className="py-3 px-2  text-center rounded-lg border-4 border-gray-500 inline-block bg-yellow-300"
+            href="/countUpdate"
+          >
+            9.Count Update
+          </Link>
         </div>
       </div>
     </div>
